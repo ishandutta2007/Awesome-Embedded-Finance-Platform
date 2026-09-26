@@ -1,6 +1,6 @@
 # Awesome-Embedded-Finance-Platform
 
-## Top Embedded Finance Platform Ecosystem
+### Top Embedded Finance Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**
 *Focused on Embedded Banking, Payments, Cards, Financial Infrastructure & Banking-as-a-Service*
