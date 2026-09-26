@@ -1,279 +1,185 @@
-# Awesome-Embedded-Finance-Platform
+# Awesome-Embedded-Finance-Platform 🚀
 
-### Top Embedded Finance Platform Ecosystem
+![Awesome Embedded Finance Platform Ecosystem Banner](./assets/banner.svg)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-*Focused on Embedded Banking, Payments, Cards, Financial Infrastructure & Banking-as-a-Service*
-**Last updated: September 2026**
+### Top Embedded Finance Platform Ecosystem 💳 🏦 ⚡
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source GitHub projects** for **Embedded Finance Platforms**. These platforms allow software companies, marketplaces, vertical SaaS products, and fintechs to embed banking accounts, payments, cards, lending, wallets, money movement, compliance, and other financial services directly into their products.
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Embedded-Finance-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Embedded-Finance-Platform?style=flat-square" alt="Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Embedded-Finance-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Embedded-Finance-Platform?style=flat-square" alt="Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Embedded-Finance-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Embedded-Finance-Platform?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Examples** include Unit, Railz, Solaris, Griffin, Treasury Prime, Synctera, Bond, Weavr, Swan, Integrated Finance, Rapyd, Fuse Finance, and Toqio.
-
-**Open-source emphasis**: This section is heavily expanded with major active projects for self-hosting, custom financial infrastructure, programmable ledgers, core banking, payment orchestration, open banking, payment rails, lending, reconciliation, and fintech infrastructure — useful for developers building an open embedded-finance stack rather than depending entirely on a proprietary BaaS provider.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-
-* [SaaS/Hosted Platforms](#saashosted-platforms)
-* [Open-Source GitHub Projects](#open-source-github-projects)
-* [How to Contribute](#how-to-contribute)
-* [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-* **[Unit](https://www.unit.co/)**
-  Embedded finance platform providing banking accounts, wallets, money movement, card issuing, lending, and financial infrastructure through APIs. Unit describes its platform as infrastructure for building and running financial products.
-
-* **[Railz](https://railz.ai/)**
-  Financial data infrastructure and API platform connecting applications with accounting, banking, commerce, and financial data sources through normalized APIs.
-
-* **[Solaris](https://www.solarisgroup.com/)**
-  European Banking-as-a-Service and embedded finance platform providing digital banking, cards, payments, lending, KYC, and related regulated financial infrastructure.
-
-* **[Griffin](https://www.griffin.com/)**
-  API-first banking platform providing embedded bank accounts, payments, reconciliation, and banking infrastructure for businesses and fintech applications.
-
-* **[Treasury Prime](https://www.treasuryprime.com/)**
-  Embedded banking API platform connecting fintechs to bank partners and providing APIs for accounts, payments, ACH, wires, cards, and other banking capabilities.
-
-* **[Synctera](https://www.synctera.com/)**
-  Banking platform providing APIs and infrastructure for embedded banking products including accounts, cards, money movement, onboarding, and core banking capabilities.
-
-* **[Bond](https://www.bond.tech/)**
-  Embedded finance platform for building banking, card, lending, and financial products through APIs and banking infrastructure.
-
-* **[Weavr](https://www.weavr.io/)**
-  Embedded finance platform providing managed accounts, cards, payments, customer onboarding, and compliance-oriented financial infrastructure through APIs and SDKs.
-
-* **[Swan](https://www.swan.io/)**
-  European API-first embedded banking platform for embedding business accounts, cards, payments, and financial workflows into software products.
-
-* **[Integrated Finance](https://integrated.finance/)**
-  Financial infrastructure orchestration platform that connects applications to banks, fintechs, regtechs, and other financial providers through programmable workflows and APIs.
-
-* **[Rapyd](https://www.rapyd.net/)**
-  Global fintech-as-a-service platform for embedding payments, payouts, accounts, cards, and financial services into applications and business processes.
-
-* **[Fuse Finance](https://www.fusefinance.com/)**
-  Embedded finance infrastructure focused on enabling financial products and banking capabilities to be integrated into software platforms.
-
-* **[Toqio](https://toqio.co/)**
-  Embedded finance platform enabling corporations and financial institutions to design, launch, and scale financial products through an ecosystem of financial-service providers.
-
-* **[Railsr](https://www.railsr.com/)**
-  Embedded finance platform providing banking, wallets, cards, payments, credit, rewards, and related financial infrastructure through APIs.
-
-* **[ClearBank](https://clear.bank/)**
-  Banking infrastructure platform providing account, payment, and clearing capabilities to financial institutions and fintechs.
-
-* **[Moov](https://moov.io/)**
-  Financial infrastructure and payments platform providing APIs for accepting payments, moving funds, issuing cards, and accessing ACH, RTP, FedNow, and other payment capabilities.
-
-* **[Column](https://column.com/)**
-  Programmable banking infrastructure focused on accounts, payments, ledgers, and developer-oriented financial services.
-
-* **[Increase](https://increase.com/)**
-  API-first financial infrastructure platform providing banking APIs for ACH, wires, card issuing, accounts, and other financial operations.
-
-* **[Galileo](https://www.galileo-ft.com/)**
-  Financial technology API platform providing infrastructure for accounts, cards, payments, and embedded financial products.
-
-* **[Marqeta](https://www.marqeta.com/)**
-  Card issuing and payment infrastructure platform enabling businesses to create and manage physical and virtual card programs.
-
-* **[Stripe Treasury](https://stripe.com/treasury)**
-  Embedded financial-account infrastructure allowing platforms to provide financial accounts and money movement capabilities inside their products.
-
-* **[Stripe Issuing](https://stripe.com/issuing)**
-  Embedded card-issuing platform for creating virtual and physical cards with programmable controls.
-
-* **[Adyen](https://www.adyen.com/)**
-  Global payments platform with embedded financial products, issuing, accounts, and payment infrastructure.
-
-* **[Airwallex](https://www.airwallex.com/)**
-  Global financial infrastructure platform offering accounts, cards, payments, FX, and embedded finance capabilities.
-
-* **[Nium](https://www.nium.com/)**
-  Global payments infrastructure platform providing accounts, cards, payouts, cross-border payments, and embedded financial services.
-
-* **[Unit21](https://www.unit21.ai/)**
-  Financial infrastructure and compliance platform focused on transaction monitoring, fraud detection, and financial-crime operations.
-
-## Open-Source GitHub Projects
-
-* **[Apache Fineract](https://github.com/apache/fineract)**
-  Mature open-source core banking platform providing APIs and financial-service primitives for customers, accounts, savings, loans, transactions, and financial products.
-
-* **[Mifos X](https://github.com/openMF/mifos-x)**
-  Open-source core banking suite built around Fineract, including backend APIs, web applications, reporting, and mobile components.
-
-* **[Formance Ledger](https://github.com/formancehq/ledger)**
-  Programmable open-source financial ledger for money-moving applications with atomic multi-posting transactions, account-based modeling, and immutable financial records.
-
-* **[Formance Stack](https://github.com/formancehq/stack)**
-  Modular open-source infrastructure for financial applications combining programmable ledgers, payment infrastructure, financial flows, and related services.
-
-* **[Formance Numscript](https://github.com/formancehq/numscript)**
-  Domain-specific language for modeling complex financial transactions and programmable money flows.
-
-* **[Formance Reconciliation](https://github.com/formancehq/reconciliation)**
-  Open-source reconciliation infrastructure for matching ledger transactions against payment-provider data.
-
-* **[Hyperswitch](https://github.com/juspay/hyperswitch)**
-  Open-source payment infrastructure and orchestration platform supporting multiple payment providers, routing, retries, vaulting, and reconciliation.
-
-* **[Moov](https://github.com/moov-io)**
-  Open-source financial infrastructure organization providing reusable libraries and services for ACH, ISO 8583, payment processing, compliance, and financial data.
-
-* **[Moov ACH](https://github.com/moov-io/ach)**
-  Open-source Go implementation for reading, writing, validating, and processing ACH files.
-
-* **[Moov ACH Gateway](https://github.com/moov-io/achgateway)**
-  Open-source gateway for automating ACH operations in distributed financial systems.
-
-* **[Moov ISO 8583](https://github.com/moov-io/iso8583)**
-  Open-source Go implementation for encoding and decoding ISO 8583 financial transaction messages.
-
-* **[Moov Watchman](https://github.com/moov-io/watchman)**
-  Open-source financial screening infrastructure for sanctions and watchlist-related workflows.
-
-* **[Mojaloop](https://github.com/mojaloop/mojaloop)**
-  Open-source software and specifications for building interoperable payment platforms connecting digital financial service providers.
-
-* **[Mojaloop Helm](https://github.com/mojaloop/helm)**
-  Kubernetes deployment tooling for Mojaloop payment infrastructure.
-
-* **[Mojaloop Central Ledger](https://github.com/mojaloop/central-ledger)**
-  Open-source component supporting clearing and settlement flows in Mojaloop-based payment systems.
-
-* **[Mojaloop ALS](https://github.com/mojaloop/central-ledger)**
-  Infrastructure associated with account and participant lookup in interoperable payment networks.
-
-* **[Mifos Payment Hub EE](https://github.com/openMF/payment-hub-ee)**
-  Open-source payment integration and gateway layer designed to connect financial institutions and core banking systems with external payment systems such as Mojaloop.
-
-* **[Open Bank Project API](https://github.com/OpenBankProject/OBP-API)**
-  Open-source banking API middleware providing standardized interfaces for accounts, transactions, payments, counterparties, and open-banking applications.
-
-* **[Apache Fineract CN](https://github.com/apache/fineract-cn)**
-  Modular open-source financial-services platform designed around independently deployable financial capabilities.
-
-* **[Frappe Lending](https://github.com/frappe/lending)**
-  Open-source lending platform covering loan products, origination, disbursement, repayment, collateral, and accounting.
-
-* **[ERPNext](https://github.com/frappe/erpnext)**
-  Open-source ERP platform with accounting, financial management, payments, customer management, and business workflows useful as supporting infrastructure for embedded-finance products.
-
-* **[Odoo Community](https://github.com/odoo/odoo)**
-  Open-source business platform with accounting, invoicing, payments, customer management, and financial workflows.
-
-* **[Firefly III](https://github.com/firefly-iii/firefly-iii)**
-  Open-source personal finance manager with transaction, account, budgeting, and financial-data management capabilities.
-
-* **[Kill Bill](https://github.com/killbill/killbill)**
-  Open-source billing and payment platform with extensible payment gateways, subscription management, invoicing, and financial operations.
-
-* **[jPOS](https://github.com/jpos/jPOS)**
-  Open-source Java framework for financial transaction processing and ISO 8583-based payment systems.
-
-* **[Midaz](https://github.com/LerianStudio/midaz)**
-  Open-source financial ledger infrastructure designed for programmable financial operations and double-entry accounting.
-
-* **[Lago](https://github.com/getlago/lago)**
-  Open-source metering, usage-based billing, invoicing, and monetization infrastructure useful for fintech and embedded-finance platforms.
-
-* **[Apache Camel](https://github.com/apache/camel)**
-  Open-source integration framework useful for connecting banking systems, payment providers, APIs, queues, and financial workflows.
-
-* **[Keycloak](https://github.com/keycloak/keycloak)**
-  Open-source identity and access-management platform useful for customer authentication, OAuth/OIDC, roles, and multi-tenant financial applications.
-
-* **[Open Policy Agent](https://github.com/open-policy-agent/opa)**
-  Open-source policy engine useful for authorization, compliance rules, transaction policies, and financial workflow controls.
-
-* **[OpenFGA](https://github.com/openfga/openfga)**
-  Open-source fine-grained authorization system useful for modeling access to accounts, organizations, financial resources, and operational functions.
-
-* **[OpenSanctions](https://github.com/opensanctions/opensanctions)**
-  Open-source data and tooling for sanctions, politically exposed persons, and entity-screening workflows.
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**
-  Open-source search and analytics platform useful for transaction search, compliance investigations, audit trails, and financial operations.
-
-* **[Apache Kafka](https://github.com/apache/kafka)**
-  Distributed event-streaming platform useful for transaction events, ledger events, payment notifications, and financial workflow orchestration.
-
-* **[NATS](https://github.com/nats-io/nats-server)**
-  Lightweight open-source messaging system useful for event-driven financial microservices and payment workflows.
-
-* **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)**
-  Open-source message broker useful for asynchronous payment processing, transaction workflows, notifications, and integration queues.
-
-* **[Temporal](https://github.com/temporalio/temporal)**
-  Open-source workflow orchestration platform useful for long-running financial workflows such as onboarding, payments, settlement, reconciliation, and compliance reviews.
-
-* **[Camunda](https://github.com/camunda/camunda)**
-  Open-source workflow and process orchestration platform useful for financial onboarding, compliance, lending, payment, and operational workflows.
-
-* **[Kong Gateway](https://github.com/Kong/kong)**
-  Open-source API gateway useful for exposing unified banking APIs, authentication, rate limiting, routing, and developer-facing financial services.
-
-* **[Apache APISIX](https://github.com/apache/apisix)**
-  Open-source cloud-native API gateway useful for securing and routing embedded-finance APIs.
-
-* **[Traefik](https://github.com/traefik/traefik)**
-  Open-source cloud-native reverse proxy and API gateway useful for exposing financial microservices.
-
-* **[PostgreSQL](https://github.com/postgres/postgres)**
-  Open-source relational database commonly used as the transactional persistence layer for ledgers, accounts, customers, reconciliation, and financial applications.
-
-* **[CockroachDB](https://github.com/cockroachdb/cockroach)**
-  Distributed SQL database useful for globally distributed financial applications requiring transactional consistency.
-
-* **[MinIO](https://github.com/minio/minio)**
-  Object-storage infrastructure useful for statements, KYC documents, transaction files, reconciliation files, and financial records.
-
-**Additional strong open-source options**:
-
-* **[Apache OFBiz](https://github.com/apache/ofbiz-framework)** for open-source enterprise business and accounting workflows.
-* **[Apache OFBiz Accounting](https://github.com/apache/ofbiz-framework)** for financial-accounting and transaction-management building blocks.
-* **[Medici](https://github.com/flash-oss/medici)** for double-entry accounting and ledger functionality in Node.js applications.
-* **[Ledger](https://github.com/ledger/ledger)** for command-line double-entry accounting and financial reporting.
-* **[Beancount](https://github.com/beancount/beancount)** for plain-text double-entry bookkeeping and programmable accounting workflows.
-* **[hledger](https://github.com/simonmichael/hledger)** for plain-text accounting and financial reporting.
-* **[GnuCash](https://github.com/Gnucash/gnucash)** for open-source accounting and financial management.
-* **[Pretix](https://github.com/prairielearn)** and other open-source commerce systems can provide reusable payment and financial workflow patterns for embedded-finance applications.
-* **[OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector)** for vendor-neutral observability of payment and banking APIs.
-* **[Prometheus](https://github.com/prometheus/prometheus)** and **[Grafana](https://github.com/grafana/grafana)** for monitoring transaction-processing infrastructure and financial services.
-* **[HashiCorp Vault](https://github.com/hashicorp/vault)** for secrets, credentials, encryption keys, and sensitive financial infrastructure.
-* **[Docker](https://github.com/moby/moby)** and **[Kubernetes](https://github.com/kubernetes/kubernetes)** for self-hosting modular embedded-finance infrastructure.
-
-**A practical open-source embedded-finance stack** can combine **Apache Fineract + Formance Ledger + Hyperswitch + Moov + Open Bank Project + Mojaloop + Frappe Lending + Keycloak + Open Policy Agent + PostgreSQL + Kafka + Temporal + Prometheus/Grafana**. This provides building blocks for core banking, ledgers, payments, open banking, lending, identity, workflows, reconciliation, and financial infrastructure while leaving regulated banking relationships and payment-network access as external dependencies.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. For GitHub projects, prefer the **official repository** and verify that it is actively maintained.
-5. Clearly distinguish between **fully open-source, open-core, source-available, and proprietary** projects.
-6. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-* This is a **community-curated** list — not exhaustive and not an endorsement.
-* Embedded-finance platforms can involve regulated banking, payments, lending, card issuing, electronic money, money transmission, KYC/KYB, AML, and other regulated activities.
-* Open-source software does **not** by itself provide banking licenses, sponsor-bank relationships, card-network memberships, payment-rail access, regulatory authorization, deposit insurance, or compliance programs.
-* Self-hosted financial infrastructure requires appropriate security, operational controls, compliance processes, monitoring, data protection, and regulatory review.
-* Project licenses vary. Always verify the current license for both the software and its dependencies before commercial deployment.
-* Some projects listed above are **components** rather than complete embedded-finance platforms; they are included because they can form important layers of a self-hosted embedded-finance architecture.
-* Commercial platform capabilities, geographic availability, banking partners, regulatory status, pricing, and product offerings can change over time.
+**Curated List of SaaS Products & Open-Source GitHub Projects for Embedded Banking, Card Issuing, Payments, Ledger Infrastructure & Banking-as-a-Service (BaaS)**
+*Last updated: September 2026* 📅
 
 ---
 
-**Made for fintechs, SaaS companies, marketplaces, banks,**
+## 📌 Overview & Market Insights 💡
 
+> **Market Size & Structure**: The global **Embedded Finance Market** is estimated at **$110 Billion+ (2026)** and projected to exceed **$380 Billion by 2032**, expanding at a CAGR of ~28%. The sector is **moderately fragmented**, featuring massive mega-scale payment processors (Adyen, Stripe) operating alongside specialized niche Banking-as-a-Service (BaaS) and programmable ledger startups (Unit, Formance, Treasury Prime, Swan).
+
+This repository tracks top-tier **SaaS/hosted platforms** and active **open-source GitHub projects** for building **Embedded Finance Platform Architecture**. These solutions allow vertical SaaS providers, e-commerce marketplaces, digital banks, and enterprise applications to directly embed bank accounts, virtual/physical cards, instant payment rails (ACH, RTP, FedNow, SEPA), lending, and automated double-entry ledgers into their native user journeys.
+
+---
+
+## 📑 Table of Contents
+
+- [📌 Overview \& Market Insights 💡](#-overview--market-insights-)
+- [🏢 Top SaaS / Hosted Embedded Finance Platforms](#-top-saas--hosted-embedded-finance-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Acknowledgments](#-support--acknowledgments)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🏢 Top SaaS / Hosted Embedded Finance Platforms
+
+The following SaaS platforms provide hosted APIs, compliance frameworks, sponsor-bank connections, and turnkey financial operations. Sorted by **Estimated Valuation / Enterprise Size (Descending)** 📊:
+
+| Platform | Key Features & Capabilities | Estimated Valuation / Size | Starting Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Stripe Treasury & Issuing](https://stripe.com/treasury)** 💳 | Embedded financial accounts, ACH/wire rails, programmable card issuing, and balance management. | **$70.0 Billion+** | $0.10/card issued + 1.5% + $0.10 per transaction | Pay-as-you-go; test mode sandbox included (no monthly fee) |
+| **[Adyen](https://www.adyen.com/)** 🌍 | Global payment processing, multi-currency accounts, embedded card issuing, and risk management. | **$45.0 Billion+** | $0.13 processing fee + payment method fee per transaction | Standard test accounts free with full API access |
+| **[Airwallex](https://www.airwallex.com/)** ✈️ | Global financial accounts, FX transfer, multi-currency debit card issuing, and payment payouts. | **$5.6 Billion** | 0.4%–1.0% FX markup; $0 account maintenance fees | Free multi-currency account setup with sandbox access |
+| **[Marqeta](https://www.marqeta.com/)** 💳 | Modern card issuing platform providing just-in-time funding and custom debit/credit card controls. | **$3.5 Billion** | ~$0.05 - $0.15 per active card/month + volume tiering | Free developer sandbox access with virtual test cards |
+| **[Nium](https://www.nium.com/)** 🌐 | Real-time global payouts, multi-currency account creation, and white-label card issuing. | **$1.4 Billion** | $0.50 - $2.00 per payout transfer | Free API sandbox access for enterprise testing |
+| **[Galileo](https://www.galileo-ft.com/)** 🏛️ | Financial technology API platform supporting debit/credit accounts, card processing, and BaaS. | **$1.2 Billion+** | $1,000/month platform fee + usage scale | Developer sandbox access upon partner application |
+| **[Rapyd](https://www.rapyd.net/)** 💵 | Fintech-as-a-Service providing global payouts, payment collection, wallets, and card issuing. | **$1.0 Billion+** | 1.2% + $0.30 per local transaction | Free developer sandbox account with sandbox keys |
+| **[Unit](https://www.unit.co/)** 🏦 | Banking-as-a-Service API platform for deposit accounts, cards, payments, and lending infrastructure. | **$1.2 Billion** | $500/month starter plan + per-account fees | Free test environment sandbox with simulated bank rails |
+| **[Solaris](https://www.solarisgroup.com/)** 🇪🇺 | European licensed BaaS platform for digital bank accounts, cards, KYC, and lending products. | **$1.6 Billion** | €1,500/month enterprise core fee + per-user fee | Enterprise partner sandbox upon approval |
+| **[Swan](https://www.swan.io/)** 🦢 | European API-first embedded banking platform providing SEPA IBANs, cards, and credit workflows. | **$350 Million** | €499/month startup plan + €1/card/month | Free instant sandbox account (unlimited testing) |
+| **[ClearBank](https://clear.bank/)** 🇬🇧 | UK clearing bank providing real-time clearing, bank accounts, and API banking infrastructure. | **$500 Million** | £500/month clearing tier + per-wire transaction fees | Sandbox available for registered financial institutions |
+| **[Treasury Prime](https://www.treasuryprime.com/)** ⛓️ | Multi-bank direct API integration platform connecting fintechs to bank partners for accounts & wires. | **$300 Million** | $1,500/month base subscription + usage fees | Free sandbox environment with API key generator |
+| **[Unit21](https://www.unit21.ai/)** 🛡️ | Transaction monitoring, AML risk detection, identity verification, and case management APIs. | **$300 Million** | $2,000/month compliance starter bundle | 14-day full developer trial with test datasets |
+| **[Synctera](https://www.synctera.com/)** 🤝 | BaaS matchmaker and ledger platform connecting fintech startups with sponsor bank partners. | **$150 Million** | $1,000/month base platform access | Sandbox developer plan free with mock banking data |
+| **[Bond](https://www.bond.tech/)** 💳 | Embedded finance infrastructure for credit cards, commercial accounts, and identity workflows. | **$150 Million** | $750/month base plan + usage-based account fee | Free sandbox access for testing cards and ledgers |
+| **[Moov](https://moov.io/)** ⚡ | Developer-first payment processor and ledger platform for ACH, RTP, FedNow, and card processing. | **$100 Million** | $0.25 per ACH transfer + 2.9% + $0.30 card rate | Free developer account with immediate sandbox keys |
+| **[Column](https://column.com/)** 🏛️ | Nationally chartered developer bank offering direct core banking, Fedwire, ACH, and ledger APIs. | **$100 Million+** | $0.10 per ACH transaction; $1.00 per Fedwire | Free developer sandbox access with instant test keys |
+| **[Increase](https://increase.com/)** 📈 | Programmatic banking infrastructure for ACH, wires, check deposit, and debit card issuing. | **$100 Million+** | $0.25 per ACH; $2.50 per wire transfer | Sandbox mode included for developer testing |
+| **[Griffin](https://www.griffin.com/)** 🦉 | UK-licensed API-driven bank offering embedded business accounts, ledger, and customer onboarding. | **$80 Million** | £250/month base plan + per-account transaction cost | Free sandbox environment for instant integration test |
+| **[Weavr](https://www.weavr.io/)** 🧩 | Plug-and-play embedded finance model offering managed accounts, cards, and compliance. | **$70 Million** | €299/month launch plan + per-active-card fees | 30-day free sandbox trial with pre-built UI components |
+| **[Railz](https://railz.ai/)** 📊 | Financial data API normalizing accounting, banking, and commerce data across multiple systems. | **$50 Million** | $250/month starter tier for up to 50 connections | 14-day free trial (up to 10 test business connections) |
+| **[Railsr](https://www.railsr.com/)** 💳 | Embedded banking and card issuing APIs supporting custom rewards, wallets, and credit cards. | **$50 Million** | £1,000/month base program fee | Partner sandbox environment upon developer onboarding |
+| **[Toqio](https://toqio.co/)** 🧱 | Modular embedded finance solution for corporations to launch custom financial products. | **$30 Million** | €800/month starter module package | Free demo sandbox environment upon request |
+| **[Integrated Finance](https://integrated.finance/)** ⚙️ | Financial API orchestrator connecting core banking, payments, and compliance providers. | **$20 Million** | £350/month middleware platform fee | 30-day free sandbox access with pre-configured mock APIs |
+| **[Fuse Finance](https://www.fusefinance.com/)** 🔌 | Embedded banking API layer enabling vertical SaaS applications to offer financial tools. | **$15 Million** | $500/month platform fee + usage scale | Free developer sandbox with simulated ACH transactions |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+Self-hosted microservices, programmable ledger engines, open banking APIs, core banking suites, and payment orchestration engines. Sorted by **GitHub Star Count (Descending)** ⭐:
+
+| Repository | Stars | Category & Focus | Description |
+| :--- | :---: | :--- | :--- |
+| **[postgres/postgres](https://github.com/postgres/postgres/stargazers)** | [![Postgres Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | Database & Storage | World's most advanced open-source relational database, standard persistence layer for ledgers and banking transactions. |
+| **[apache/kafka](https://github.com/apache/kafka/stargazers)** | [![Kafka Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Event Streaming | Distributed event streaming platform powering high-throughput transaction streams, audit trails, and financial events. |
+| **[keycloak/keycloak](https://github.com/keycloak/keycloak/stargazers)** | [![Keycloak Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Identity & Auth | Open-source identity and access management for OAuth2/OIDC, customer authentication, and multi-tenant security. |
+| **[traefik/traefik](https://github.com/traefik/traefik/stargazers)** | [![Traefik Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers) | API Gateway | Modern cloud-native reverse proxy and ingress controller for securing banking and financial microservices. |
+| **[temporalio/temporal](https://github.com/temporalio/temporal/stargazers)** | [![Temporal Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | Workflow Engine | Resilient workflow orchestration engine for financial transactions, onboarding, ACH clearing, and settlement flows. |
+| **[Kong/kong](https://github.com/Kong/kong/stargazers)** | [![Kong Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers) | API Gateway | Cloud-native API gateway providing authentication, rate limiting, and security for embedded financial services. |
+| **[opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch/stargazers)** | [![OpenSearch Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Search & Analytics | Distributed search and analytics suite for transaction search, compliance audit logs, and fraud detection. |
+| **[minio/minio](https://github.com/minio/minio/stargazers)** | [![MinIO Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | Object Storage | High-performance S3-compatible object storage for KYC document verification, bank statements, and audit records. |
+| **[hashicorp/vault](https://github.com/hashicorp/vault/stargazers)** | [![Vault Stars](https://img.shields.io/github/stars/hashicorp/vault?style=social&color=white)](https://github.com/hashicorp/vault/stargazers) | Secrets & Security | Manage secrets, tokens, API keys, and data encryption for sensitive financial applications. |
+| **[cockroachdb/cockroach](https://github.com/cockroachdb/cockroach/stargazers)** | [![CockroachDB Stars](https://img.shields.io/github/stars/cockroachdb/cockroach?style=social&color=white)](https://github.com/cockroachdb/cockroach/stargazers) | Distributed Database | Distributed SQL database providing serializable ACID transactions for global banking platforms. |
+| **[open-policy-agent/opa](https://github.com/open-policy-agent/opa/stargazers)** | [![OPA Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Policy & Compliance | General-purpose policy engine for evaluating transaction rules, authorization limits, and compliance checks. |
+| **[apache/camel](https://github.com/apache/camel/stargazers)** | [![Camel Stars](https://img.shields.io/github/stars/apache/camel?style=social&color=white)](https://github.com/apache/camel/stargazers) | Integration Framework | Versatile enterprise integration pattern framework connecting banking protocols, message queues, and legacy systems. |
+| **[frappe/erpnext](https://github.com/frappe/erpnext/stargazers)** | [![ERPNext Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Accounting & ERP | Open-source ERP system with accounting, ledger, invoicing, and financial management modules. |
+| **[odoo/odoo](https://github.com/odoo/odoo/stargazers)** | [![Odoo Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Business & ERP | Suite of open-source business apps including double-entry accounting, invoicing, and payment processing. |
+| **[rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server/stargazers)** | [![RabbitMQ Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers) | Message Broker | Lightweight message broker for event-driven payment processing, message queuing, and notifications. |
+| **[nats-io/nats-server](https://github.com/nats-io/nats-server/stargazers)** | [![NATS Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers) | Messaging | Ultra-fast cloud-native messaging system powering event-driven microservices in fintech. |
+| **[firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii/stargazers)** | [![Firefly Stars](https://img.shields.io/github/stars/firefly-iii/firefly-iii?style=social&color=white)](https://github.com/firefly-iii/firefly-iii/stargazers) | Personal Finance | Free personal finance manager featuring transaction rules, account management, and open API access. |
+| **[apache/apisix](https://github.com/apache/apisix/stargazers)** | [![APISIX Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers) | API Gateway | High-performance API gateway handling security, routing, and traffic control for financial endpoints. |
+| **[juspay/hyperswitch](https://github.com/juspay/hyperswitch/stargazers)** | [![Hyperswitch Stars](https://img.shields.io/github/stars/juspay/hyperswitch?style=social&color=white)](https://github.com/juspay/hyperswitch/stargazers) | Payment Orchestration | Open-source payment switch for routing, vaulting, retries, and multi-processor integration written in Rust. |
+| **[openfga/openfga](https://github.com/openfga/openfga/stargazers)** | [![OpenFGA Stars](https://img.shields.io/github/stars/openfga/openfga?style=social&color=white)](https://github.com/openfga/openfga/stargazers) | Authorization Engine | Fine-grained authorization system based on Google Zanzibar for complex financial access control. |
+| **[camunda/camunda](https://github.com/camunda/camunda/stargazers)** | [![Camunda Stars](https://img.shields.io/github/stars/camunda/camunda?style=social&color=white)](https://github.com/camunda/camunda/stargazers) | Process Automation | BPMN-compliant process orchestration engine for complex financial onboarding and compliance flows. |
+| **[getlago/lago](https://github.com/getlago/lago/stargazers)** | [![Lago Stars](https://img.shields.io/github/stars/getlago/lago?style=social&color=white)](https://github.com/getlago/lago/stargazers) | Usage-Based Billing | Open-source metering and usage-based billing engine designed for developer tools and fintech APIs. |
+| **[mojaloop/mojaloop](https://github.com/mojaloop/mojaloop/stargazers)** | [![Mojaloop Stars](https://img.shields.io/github/stars/mojaloop/mojaloop?style=social&color=white)](https://github.com/mojaloop/mojaloop/stargazers) | Interoperable Payments | Open-source software for building digital payment switches connecting financial service providers. |
+| **[apache/fineract](https://github.com/apache/fineract/stargazers)** | [![Fineract Stars](https://img.shields.io/github/stars/apache/fineract?style=social&color=white)](https://github.com/apache/fineract/stargazers) | Core Banking Engine | Production-grade core banking engine for deposits, loans, savings products, and interest calculation. |
+| **[ledger/ledger](https://github.com/ledger/ledger/stargazers)** | [![Ledger Stars](https://img.shields.io/github/stars/ledger/ledger?style=social&color=white)](https://github.com/ledger/ledger/stargazers) | Command Line Accounting | Powerful command-line double-entry accounting engine written in C++ for fast financial calculations. |
+| **[beancount/beancount](https://github.com/beancount/beancount/stargazers)** | [![Beancount Stars](https://img.shields.io/github/stars/beancount/beancount?style=social&color=white)](https://github.com/beancount/beancount/stargazers) | Plain Text Ledger | Double-entry computer-based financial tracking engine with custom Python scripts and reporting tools. |
+| **[simonmichael/hledger](https://github.com/simonmichael/hledger/stargazers)** | [![Hledger Stars](https://img.shields.io/github/stars/simonmichael/hledger?style=social&color=white)](https://github.com/simonmichael/hledger/stargazers) | Plain Text Accounting | Cross-platform software for tracking money using plain-text double-entry accounting files. |
+| **[killbill/killbill](https://github.com/killbill/killbill/stargazers)** | [![KillBill Stars](https://img.shields.io/github/stars/killbill/killbill?style=social&color=white)](https://github.com/killbill/killbill/stargazers) | Billing & Payment | Open-source subscription management and payment platform with pluggable payment gateway connectors. |
+| **[gnucash/gnucash](https://github.com/gnucash/gnucash/stargazers)** | [![GnuCash Stars](https://img.shields.io/github/stars/gnucash/gnucash?style=social&color=white)](https://github.com/gnucash/gnucash/stargazers) | Accounting Software | Double-entry bookkeeping software for personal and small-business financial accounting. |
+| **[formancehq/ledger](https://github.com/formancehq/ledger/stargazers)** | [![Formance Stars](https://img.shields.io/github/stars/formancehq/ledger?style=social&color=white)](https://github.com/formancehq/ledger/stargazers) | Programmable Ledger | Cloud-native double-entry ledger optimized for programmable financial flows and atomic transactions. |
+| **[openMF/mifos-x](https://github.com/openMF/mifos-x/stargazers)** | [![MifosX Stars](https://img.shields.io/github/stars/openMF/mifos-x?style=social&color=white)](https://github.com/openMF/mifos-x/stargazers) | Core Banking Suite | Full web UI and management client for Apache Fineract core banking engine. |
+| **[moov-io/ach](https://github.com/moov-io/ach/stargazers)** | [![Moov ACH Stars](https://img.shields.io/github/stars/moov-io/ach?style=social&color=white)](https://github.com/moov-io/ach/stargazers) | ACH Processing | Go implementation for generating, reading, validating, and writing NACHA ACH payment files. |
+| **[opensanctions/opensanctions](https://github.com/opensanctions/opensanctions/stargazers)** | [![OpenSanctions Stars](https://img.shields.io/github/stars/opensanctions/opensanctions?style=social&color=white)](https://github.com/opensanctions/opensanctions/stargazers) | AML & Sanctions Data | Open database and tooling for screening political figures, sanctions lists, and financial risks. |
+| **[jpos/jPOS](https://github.com/jpos/jPOS/stargazers)** | [![jPOS Stars](https://img.shields.io/github/stars/jpos/jPOS?style=social&color=white)](https://github.com/jpos/jPOS/stargazers) | ISO 8583 Messaging | Enterprise Java framework for financial transaction processing and payment terminal switches. |
+| **[LerianStudio/midaz](https://github.com/LerianStudio/midaz/stargazers)** | [![Midaz Stars](https://img.shields.io/github/stars/LerianStudio/midaz?style=social&color=white)](https://github.com/LerianStudio/midaz/stargazers) | Financial Ledger | Multi-asset financial ledger engine engineered for real-time double-entry balances and auditing. |
+| **[flash-oss/medici](https://github.com/flash-oss/medici/stargazers)** | [![Medici Stars](https://img.shields.io/github/stars/flash-oss/medici?style=social&color=white)](https://github.com/flash-oss/medici/stargazers) | Node.js Double-Entry | Double-entry accounting book engine built on top of MongoDB for Node.js backend services. |
+| **[OpenBankProject/OBP-API](https://github.com/OpenBankProject/OBP-API/stargazers)** | [![OBP Stars](https://img.shields.io/github/stars/OpenBankProject/OBP-API?style=social&color=white)](https://github.com/OpenBankProject/OBP-API/stargazers) | Open Banking API | Standardized middleware API server for open banking, accounts, transactions, and PSD2 compliance. |
+| **[frappe/lending](https://github.com/frappe/lending/stargazers)** | [![Frappe Lending Stars](https://img.shields.io/github/stars/frappe/lending?style=social&color=white)](https://github.com/frappe/lending/stargazers) | Loan Management | Open-source loan management engine covering origination, disbursements, collateral, and repayments. |
+| **[moov-io/watchman](https://github.com/moov-io/watchman/stargazers)** | [![Moov Watchman Stars](https://img.shields.io/github/stars/moov-io/watchman?style=social&color=white)](https://github.com/moov-io/watchman/stargazers) | Sanctions Screening | Microservice for searching OFAC, PEP, and sanctions lists for instant customer compliance screening. |
+| **[moov-io/iso8583](https://github.com/moov-io/iso8583/stargazers)** | [![Moov ISO8583 Stars](https://img.shields.io/github/stars/moov-io/iso8583?style=social&color=white)](https://github.com/moov-io/iso8583/stargazers) | ISO 8583 Parser | Open-source Go library for encoding, decoding, and validating ISO 8583 card payment messages. |
+
+---
+
+## 🏗️ Architecture Blueprint: Practical Open Embedded Finance Stack
+
+A developer-owned, production-grade **open-source embedded finance stack** can be constructed by composing modular layers:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                   Unified API Gateway Layer                            │
+│                 (Kong / Traefik / Apache APISIX)                       │
+└──────────────────────────────────┬─────────────────────────────────────┘
+                                   │
+ ┌─────────────────────────────────┼──────────────────────────────────┐
+ │                                 │                                  │
+ ▼                                 ▼                                  ▼
+┌──────────────────────┐ ┌──────────────────────┐ ┌──────────────────┐
+│  Core Banking & Loan │ │ Payments & Switching │ │ Identity & Policy│
+│  (Apache Fineract /  │ │ (Hyperswitch / Moov  │ │ (Keycloak / OPA /│
+│   Frappe Lending)    │ │  ACH / Mojaloop)     │ │  OpenSanctions)  │
+└──────────┬───────────┘ └──────────┬───────────┘ └────────┬─────────┘
+           │                        │                      │
+           └──────────────────┬─────┴──────────────────────┘
+                              ▼
+           ┌─────────────────────────────────────┐
+           │      Programmable Ledger Engine     │
+           │  (Formance Ledger / Midaz / Medici) │
+           └──────────────────┬──────────────────┘
+                              ▼
+           ┌─────────────────────────────────────┐
+           │      Persistence & Event Streaming  │
+           │   (PostgreSQL / Kafka / Temporal)   │
+           └─────────────────────────────────────┘
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To contribute to this curated ecosystem list:
+
+1. **Fork** the repository.
+2. Add your project or SaaS entry into the appropriate table adhering to the markdown schema.
+3. Ensure pricing and free tier specs are explicitly stated (no generic "Custom" text).
+4. For GitHub projects, link the repository star badge directly to its stargazers page (`https://github.com/owner/repo/stargazers`).
+5. Open a **Pull Request** with a clear explanation of the platform.
+
+---
+
+## 💖 Support & Acknowledgments
+
+If this curated embedded finance resource helps you build financial applications or navigate the BaaS ecosystem, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to increase visibility.
+- 🔀 **Fork & Share** with fellow developers and fintech engineers.
+- ☕ **Sponsor the Maintainer**: [Buy a coffee on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
+
+Thank you to all community contributors for keeping this index updated! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Embedded-Finance-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Embedded-Finance-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is for informational and educational purposes only.
+- Embedded finance operations involve strictly regulated financial activities (banking licenses, KYC/AML compliance, electronic money, card network rules).
+- Open-source software binaries do **not** grant regulatory authorization or sponsor-bank partnerships.
