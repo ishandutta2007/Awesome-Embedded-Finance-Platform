@@ -67,9 +67,9 @@ The following SaaS platforms provide hosted APIs, compliance frameworks, sponsor
 
 ## ⚡ Open-Source GitHub Projects
 
-Self-hosted microservices, programmable ledger engines, open banking APIs, core banking suites, and payment orchestration engines. Sorted by **GitHub Star Count (Descending)** ⭐:
+Self-hosted microservices, programmable ledger engines, open banking APIs, core banking suites, and payment orchestration engines. Sorted by **GitHub Stars_Count (Descending)** ⭐:
 
-| Repository | Stars | Category & Focus | Description |
+| Repository | GitHub_Stars | Category & Focus | Description |
 | :--- | :---: | :--- | :--- |
 | **[postgres/postgres](https://github.com/postgres/postgres/stargazers)** | [![Postgres Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers) | Database & Storage | World's most advanced open-source relational database, standard persistence layer for ledgers and banking transactions. |
 | **[apache/kafka](https://github.com/apache/kafka/stargazers)** | [![Kafka Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Event Streaming | Distributed event streaming platform powering high-throughput transaction streams, audit trails, and financial events. |
@@ -155,7 +155,7 @@ Contributions are welcome! To contribute to this curated ecosystem list:
 1. **Fork** the repository.
 2. Add your project or SaaS entry into the appropriate table adhering to the markdown schema.
 3. Ensure pricing and free tier specs are explicitly stated (no generic "Custom" text).
-4. For GitHub projects, link the repository star badge directly to its stargazers page (`https://github.com/owner/repo/stargazers`).
+4. For GitHub projects, link the repository Stars_Badge directly to its stargazers page (`https://github.com/owner/repo/stargazers`).
 5. Open a **Pull Request** with a clear explanation of the platform.
 
 ---
